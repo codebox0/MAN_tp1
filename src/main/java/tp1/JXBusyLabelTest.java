@@ -70,6 +70,13 @@ public class JXBusyLabelTest extends JFrame implements ActionListener {
 			bLabel1.setBusy(false);
 		}
 	}
+	/**
+	 *
+	 * @param e event Action
+	 */
+	public void actionPerformedTest(ActionEvent e) {
+		System.out.println("TEST voir");
+	}
 
 	/**
 	 *
